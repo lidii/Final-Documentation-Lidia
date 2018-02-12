@@ -1,0 +1,46 @@
+//This sketch is all about experimenting with images. By clicking new pictures appear.
+
+int maxImages = 4;
+int imageIndex = 0;
+float r = random(300, 350);
+
+
+//Declaing an array of images
+PImage [] images = new PImage[maxImages];
+
+void setup() {
+  colorMode(HSB, 360, 100, 100);
+  size(800, 800);
+  frameRate (3);
+  
+ 
+ 
+
+  for (int i=0; i<images.length; i++) {
+    images[i] = loadImage("herz"+i+".jpg");
+  }
+}
+
+void draw() {
+ r = random(10, 350);
+ println (r);
+size(800, 800);
+  //colorMode(HSB);
+  background(r, 49, 80);
+  imageMode(CENTER);
+  image(images[imageIndex], width/2, height/2);
+  tint(r, 49, 80);
+  //images.resize(200,200); 
+  //filter(ERODE);
+}
+
+
+void mousePressed() {
+imageIndex = int(random(images.length));
+filter(INVERT); 
+} 
+ 
+  void keyPressed() {
+  filter(THRESHOLD);
+  
+}
