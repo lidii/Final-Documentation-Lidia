@@ -3,6 +3,10 @@
 # Sketch Nr. 1: Thermometer
 Thermometer, which increases in temperature when the mouse is moved up.
 
+
+![GitHub Logo](Thermometer.png)
+Format: ![Alt Text](url)
+
 ![Image of THERMOMETER](https://octodex.github.com/images/THERMOMETER.png)
 
 # Sketch Nr. 2: "Pong"
