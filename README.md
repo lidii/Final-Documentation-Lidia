@@ -3,7 +3,7 @@ Thermometer, which increases in temperature when the mouse is moved up.
 
 
 ![GitHub Logo](Thermometer.png)
-Format: ![Alt Text](url)
+
 
 
 
@@ -17,7 +17,7 @@ Format: ![Alt Text](url)
 
 
 ![GitHub Logo](PONG.png)
-Format: ![Alt Text](url)
+
 
 
 
@@ -25,4 +25,4 @@ Format: ![Alt Text](url)
 This sketch is all about experimenting with images. By clicking new pictures appear. 
 
 ![GitHub Logo](FUN.png)
-Format: ![Alt Text](url)
+
